@@ -64,7 +64,7 @@ class Program
 
                 if (productChoice < 1 || productChoice > products.Length)
                 {
-                    Console.WriteLine("Invalid product.");
+                    Console.WriteLine("Invalid product number.");
                     continue;
                 }
 
